@@ -7,22 +7,31 @@ use Illuminate\Http\Request;
 class PartnersController extends Controller
 {
     /**
-     * Show a documentation page.
+     * Show the partners index page.
      *
-     * @return Response
+     * @return \Illuminate\View\View
      */
     public function index()
     {
-        return view('partners');
+        $featured = ['tighten', 'vehikl', 'devsquad', '64robots'];
+
+        shuffle($featured);
+
+        return view('partners', [
+            'featured' => $featured[0],
+            'otherPartners' => array_slice($featured, 1),
+        ]);
     }
 
     /**
-     * Show a documentation page.
+     * Show a parnter page.
      *
-     * @return Response
+     * @return \Illuminate\View\View
      */
     public function show($partner)
     {
-        return view('partners.'.$partner);
+        $view = 'partners.'.$partner;
+
+        return view()->exists($view) ? view($view) : abort(404);
     }
 }

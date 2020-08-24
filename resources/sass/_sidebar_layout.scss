@@ -104,6 +104,7 @@
             padding: 0 1em;
             width: 15em;
             overflow: auto;
+            -webkit-overflow-scrolling: touch;
             position: sticky;
             top: 10px;
 
@@ -160,6 +161,7 @@
                                 position: relative;
                                 padding-left: 1em;
                                 font-weight: 400;
+                                line-height: 1.25;
                             }
 
                             &.active a::before {
@@ -178,7 +180,7 @@
                         }
 
                         ul {
-                            max-height: 28em;
+                            max-height: none;
                         }
                     }
                 }

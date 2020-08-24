@@ -28,6 +28,11 @@ html, body {
 	padding: 0;
 }
 
+body {
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
 .page_contain {
     max-width: 100em;
     margin: 0 auto;

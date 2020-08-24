@@ -13,7 +13,7 @@
     margin-bottom: .5em;
   }
 
-  .h2, .h3, .h4 {
+  .h2, .h3, .h4, .h5, .h6 {
     font-size: 14px;
     color: rgba($black, .7);
     display: inline-block;
@@ -80,6 +80,7 @@
 
 .twitter-typeahead .tt-dropdown-menu .footer {
   border-bottom: solid 1px #dee0df !important;
+  text-align: right;
 }
 
 .twitter-typeahead .tt-dropdown-menu .autocomplete-wrapper {
@@ -97,10 +98,6 @@
 .twitter-typeahead .tt-dropdown-menu .footer {
   padding: 10px;
   color: #777777;
-}
-
-.twitter-typeahead .tt-dropdown-menu .footer img {
-  float: right;
 }
 
 .twitter-typeahead .tt-dropdown-menu .tt-suggestion.tt-cursor .autocomplete-wrapper .content {

@@ -8,13 +8,14 @@
             <div class="content_contain" style="padding-bottom: 4.5em;">
                 <div class="page_contain">
                     <div class="banner">
-                        <a href="https://nova.laravel.com/">
+                        <a href="https://vapor.laravel.com/">
                             <div class="banner_icon icon_nova">
-                                <img src="/img/ecosystem/nova.min.svg" alt="Nova">
+                                <img src="/img/ecosystem/vapor.min.svg" alt="Vapor">
                             </div>
                             <div class="banner_content">
-                                <p class="small">Laravel Nova is now available! Get your copy today!
-                                    <span class="arrow">→</span></p>
+                                 <p class="small">
+                                    Laravel Vapor is now available! Sign up today! <span class="arrow">→</span>
+                                </p>
                             </div>
                         </a>
                     </div>
@@ -26,9 +27,9 @@
                                 </video>
                             </div>
                             <div class="hero_content">
-                                <h1>The PHP Framework for Creative Programmers</h1>
+                                <h1>The PHP Framework for Web Artisans</h1>
                                 <p>Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation — freeing you to create without sweating the small things.</p>
-                                <div class="hero_actions">
+                                <div class="hero_actions" style="z-index: -999;">
                                     <a href="/docs" class="btn"><span>Documentation</span></a>
                                     <a href="https://laracasts.com" data-remodal-target="video_modal" class="btn secondary"><span><img src="/img/icons/play.min.svg" alt="Play Video"><span>Watch Laracasts</span></span></a>
 
@@ -106,7 +107,7 @@
                                     </a>
                                 </li>
                                 <li class="sys_horizon">
-                                    <a href="https://horizon.laravel.com">
+                                    <a href="/docs/{{DEFAULT_VERSION}}/horizon">
                                         <div class="system_icon"><img src="/img/ecosystem/horizon.min.svg" alt="Icon">
                                         </div>
                                         <div class="system_info">Horizon <span>Queue Monitoring</span></div>
@@ -221,12 +222,15 @@
                                 <h1>A community built for people like you</h1>
                                 <p>Whether you’re a solo developer or a 20-person team, getting started is simple thanks to our great community.</p>
                                 <ul class="resource_list">
+                                    <li><a href="https://blog.laravel.com">Blog</a></li>
                                     <li><a href="https://laracasts.com">Laracasts</a></li>
                                     <!-- <li><a href="http://laravelpodcast.com/">Podcast</a></li> -->
                                     <li><a href="https://laravel-news.com">Laravel News</a></li>
                                     <li><a href="https://laracon.us/">Laracon</a></li>
                                     <li><a href="https://larajobs.com/">Jobs</a></li>
+                                    <li><a href="https://laracon.eu/">Laracon EU</a></li>
                                     <li><a href="https://laracasts.com/discuss">Forums</a></li>
+                                    <li><a href="https://laracon.com.au/">Laracon AU</a></li>
                                     <li><a href="https://certification.laravel.com/">Certification</a></li>
                                 </ul>
                             </div>

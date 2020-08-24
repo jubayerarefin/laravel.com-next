@@ -207,6 +207,7 @@ nav.main {
     .nav_contain {
         max-height: 0;
         overflow: scroll;
+        -webkit-overflow-scrolling: touch;
         opacity: 0;
         padding: 0 5.5%;
         transform: translateY(-2em);
@@ -253,7 +254,7 @@ nav.main {
                 }
 
                 &:hover {
-                    transform: scale(1.03);
+                    transform: perspective(1px) scale3d(1.03, 1.03, 1.03);
                 }
             }
 
@@ -274,7 +275,7 @@ nav.main {
 
                 .drop_contain {
                     overflow: visible;
-                    max-height: 105em;
+                    max-height: 125em;
                 }
             }
 
